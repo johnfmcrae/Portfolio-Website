@@ -1,54 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>John McRae</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div>
+                <button id="theme-button">Theme</button>
+            </div>
+            <div class="navigation-buttons-container">
+                <button class="navigation-button">Home</button>
+                <button class="navigation-button">Projects</button>
+                <button class="Contact">Contact</button>
+            </div>
         </nav>
     </header>
 
     <main>
-        <h1>About Me</h1>
-        <p class="intro-sentence">I'm a software developer and web designer, a believer in well-crafted code, open source, good design, and sustainable software.</p>
-        <p>
-            I started my professional journey as an electronics engineer. I wanted to build guitar amps and audio equipment but during my graduate studies, found out I enjoyed writing audio software more. I transitioned into software development and there found a love of designing user interfaces. Now, I'm building websites for my own projects and (eventually) people in my local community.
-        </p>
-        <p>
-            I've always been meticulous in whatever I do, whether it's learning how to make sauerkraut, developing photographic film, or designing a new software feature. I'm a big proponent of clean code and architecture and enjoy a good code review almost as much as writing the code itself. Just as important as the back end is making getting the user-facing design right. I love reading about graphic design, art, and photography and these influence my work in web design. Sustainability is another important value I hold, so I make sure to follow green software development practices on my own projects.
-        </p>
-        <p>
-            Take a look at the projects listed below if you'd like an idea of what I've worked on. You can find more information about the tools I used for each project on each page. I'm looking for new projects, so don't hesitate to reach out!
-        </p>
+        <div class="name-banner background-1-container">
+            <div class="content-container">
+                <h1>John F. McRae</h1>
+                <h2 class="sub-banner">Software Developer</h2>
+                <p class="summary-sentence">
+                    I'm a software developer and web designer, a believer in well-crafted code, open source, good
+                    design,
+                    and sustainable software.
+                </p>
+            </div>
+        </div>
 
-        <h1>Projects</h1>
-        <ul>
-            <li>This website</li>
-            <li>Itema website</li>
-            <li>Noise generator plugin</li>
-            <li>Programming notes</li>
-            <li>Music listening tracker</li>
-        </ul>
+        <div class="about-me-section background-2-container">
+            <div class="content-container">
 
-        <h1>Contact</h1>
-        <ul>
-            <li>CV</li>
-            <li><a href="https://www.linkedin.com">LinkedIn</a></li>
-            <li>email</li>
-        </ul>
+
+                <h2>About Me</h2>
+                <p>
+                    I started my professional journey as an electronics engineer. I wanted to build guitar amps and
+                    audio
+                    equipment but during my graduate studies, found out I enjoyed writing audio software more. I
+                    transitioned into software development and there found a love of designing user interfaces. Now, I'm
+                    building websites for my own projects and (eventually) people in my local community.
+                </p>
+                <p>
+                    I've always been meticulous in whatever I do, whether it's learning how to make sauerkraut,
+                    developing
+                    photographic film, or designing a new software feature. I'm a big proponent of clean code and
+                    architecture and enjoy a good code review almost as much as writing the code itself. Just as
+                    important
+                    as the back end is making getting the user-facing design right. I love reading about graphic design,
+                    art, and photography and these influence my work in web design. Sustainability is another important
+                    value I hold, so I make sure to follow green software development practices on my own projects.
+                </p>
+                <p>
+                    Take a look at the projects listed below if you'd like an idea of what I've worked on. You can find
+                    more
+                    information about the tools I used for each project on each page. I'm looking for new projects, so
+                    don't
+                    hesitate to reach out!
+                </p>
+            </div>
+        </div>
+
+        <div class="projects-section background-1-container">
+            <div class="content-container">
+                <h2>Projects</h2>
+                <div class="projects-wrapper">
+                    <div class="project-link">
+                        <div id="this-website"></div>
+                        <p class="project-title">This website</p>
+                    </div>
+                    <div class="project-link">
+                        <div id="itema-website"></div>
+                        <p class="project-title">Itema website</p>
+                    </div>
+                    <div class="project-link" id="noise-plugin">
+                        <div id="noise-plugin"></div>
+                        <p class="project-title">Noise generator plugin</p>
+                    </div>
+                    <div class="project-link">
+                        <div id="notes-website"></div>
+                        <p class="project-title">Software notes</p>
+                    </div>
+                    <div class="project-link">
+                        <div id="listening-tracker"></div>
+                        <p class="project-title">Music listening tracker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-container background-2-container">
+            <div class="content-container">
+                <h2>Contact</h2>
+                <ul>
+                    <li>CV</li>
+                    <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                    <li>email</li>
+                </ul>
+            </div>
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2024 John McRae</p>
     </footer>
 </body>
+
 </html>
