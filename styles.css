@@ -8,11 +8,50 @@ body {
     font-family: sans-serif;
 }
 
+h1, h2 {
+    font-family: "latino-gothic-variable",sans-serif;
+}
+
+h1 {
+    font-size: 7rem;
+    font-variation-settings: 'wght' 90, 'wdth' 15, 'slnt' 1;
+}
+
+h2 {
+    font-size: 4rem;;
+    font-variation-settings: 'wght' 70, 'wdth' 45, 'slnt' 1;
+}
+
+.sub-banner {
+    font-size: 5rem;;
+    font-variation-settings: 'wght' 10, 'wdth' 60, 'slnt' 1;
+}
+
+p {
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.summary-sentence {
+    font-size: 2rem;
+}
+
 nav {
     display: flex;
     flex-direction: row;
     border: solid thin;
     background-color: #142426;
+}
+
+hr {
+    height: 4px;
+    background-color: black;
+    margin: 0;
+    border: none;
 }
 
 main {
@@ -26,17 +65,17 @@ main {
 
 .background-1-container {
     width: 100%;
-    background-color: #eee8d5;
+    background-color: #fffdf3;
 }
 
 .background-2-container {
     width: 100%;
-    background-color: #93a1a1;
+    background-color: #ef7737;
 }
 
 .content-container {
     width: 60%;
-    max-width: 600px;
+    max-width: 800px;
     min-width: 300px;
     margin: 0 auto;
     padding: 20px;
