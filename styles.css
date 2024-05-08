@@ -1,5 +1,10 @@
 /* CSS reset */
-body, h1, h2, h3, p, div {
+body,
+h1,
+h2,
+h3,
+p,
+div {
     margin: 0;
     padding: 0;
 }
@@ -8,8 +13,10 @@ body {
     font-family: sans-serif;
 }
 
-h1, h2 {
-    font-family: "latino-gothic-variable",sans-serif;
+h1,
+h2,
+h3 {
+    font-family: "latino-gothic-variable", sans-serif;
 }
 
 h1 {
@@ -18,13 +25,20 @@ h1 {
 }
 
 h2 {
-    font-size: 4rem;;
+    font-size: 4rem;
     font-variation-settings: 'wght' 70, 'wdth' 45, 'slnt' 1;
+    margin-top: 1rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-variation-settings: 'wght' 60, 'wdth' 20, 'slnt' 1;
 }
 
 .sub-banner {
-    font-size: 5rem;;
+    font-size: 5rem;
     font-variation-settings: 'wght' 10, 'wdth' 60, 'slnt' 1;
+    margin-top: -1rem;
 }
 
 p {
@@ -81,3 +95,35 @@ main {
     padding: 20px;
 }
 
+.projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid; */
+}
+
+.project-link {
+    border: solid;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+    background-color: #ef7737;
+}
+
+.project-link:hover {
+    cursor: pointer;
+    background-color: #fb965f;
+}
+
+.project-preview {
+    background-color: #fffdf3;
+    width: 80%;
+    height: 60%;
+    margin: 20px auto;
+}
+
+.project-title {
+    margin-left: 10%;
+}
